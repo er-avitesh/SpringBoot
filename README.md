@@ -10,9 +10,9 @@ Once you provided the Group, Artifact, Dependencies, Build Project, Platform and
 #### Hello Controller 
 /hello this controller is simple hello world controller.
 
-#### products Controller 
-##### /deleteproducts/{id} DELETE request is to delete any product by passing id.
-##### /updateproducts/{id} PUT Request is to update  any product by passing id and new Product object.
-##### /getproducts GET request is to get all products available.
-##### /createproduct POST request is to create any product in repo by passing Product object.
+#### Products Controller 
+###### /deleteproducts/{id} DELETE request is to delete any product by passing id.
+###### /updateproducts/{id} PUT Request is to update  any product by passing id and new Product object.
+###### /getproducts GET request is to get all products available.
+###### /createproduct POST request is to create any product in repo by passing Product object.
 
