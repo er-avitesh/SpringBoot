@@ -18,3 +18,9 @@ Once you provided the Group, Artifact, Dependencies, Build Project, Platform and
 /getproducts GET request is to get all products available.
 /createproduct POST request is to create any product in repo by passing Product object.
 ~~~
+
+#### File Handler Controller 
+~~~
+/upload POST request is to invoke upload endpoint.
+/download GET request is to invoke download endpoint.
+~~~

@@ -29,13 +29,13 @@ public class ProductController {
 		productRepo.put(almond.getId(), almond);
 	}
 
-	@RequestMapping(value = "/deleteproducts/{id}", method = RequestMethod.DELETE)
+	@RequestMapping(value = "/deleteproduct/{id}", method = RequestMethod.DELETE)
 	public ResponseEntity<Object> delete(@PathVariable("id") String id) {
 		productRepo.remove(id);
 		return new ResponseEntity<>("Product is deleted successsfully", HttpStatus.OK);
 	}
 
-	@RequestMapping(value = "/updateproducts/{id}", method = RequestMethod.PUT)
+	@RequestMapping(value = "/updateproduct/{id}", method = RequestMethod.PUT)
 	public ResponseEntity<Object> updateProduct(@PathVariable("id") String id, @RequestBody Product product) {
 		if (!productRepo.containsKey(id))
 			throw new ProductNotfoundException();
