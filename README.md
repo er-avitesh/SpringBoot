@@ -24,3 +24,8 @@ Once you provided the Group, Artifact, Dependencies, Build Project, Platform and
 /upload POST request is to invoke upload endpoint.
 /download GET request is to invoke download endpoint.
 ~~~
+
+#### Web Controller 
+~~~
+/index to show Thymeleaf index.html web page.
+~~~
