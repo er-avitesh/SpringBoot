@@ -5,6 +5,8 @@ Spring Boot is an open source Java-based framework used to create a Micro Servic
 One of the ways to Bootstrapping a Spring Boot application is by using Spring Initializer. To do this, you will have to visit the Spring Initializer web page www.start.spring.io and choose your Build, Spring Boot Version and platform. Also, you need to provide a Group, Artifact and required dependencies to run the application.
 Once you provided the Group, Artifact, Dependencies, Build Project, Platform and Version, click Generate Project button. The zip file will download and the files will be extracted.
 
+#### Keep note that as we enabled HTTPS in port 443 for app using keystore.
+
 ### Controllers
 
 #### Hello Controller 
